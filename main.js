@@ -1,13 +1,13 @@
-let obj = {
-    suma : function(){
-        return this.num1 + this.num2;
-    }
-}
-let obj2 = Object.create(obj);
-obj2.num1 = 5;
-obj2.num2 = 5;
+// let obj = {
+//     suma : function(){
+//         return this.num1 + this.num2;
+//     }
+// }
+// let obj2 = Object.create(obj);
+// obj2.num1 = 5;
+// obj2.num2 = 5;
 
-console.log(obj2);
+// console.log(obj2);
 // console.log(obj2.suma());
 
 let D = 5;
